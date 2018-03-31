@@ -1,0 +1,46 @@
+@import '../../styles';
+
+h1{
+    color: white;
+    padding-left: 4rem;
+    padding-top: 4rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background-color: $primary-color;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.container{
+    background-image: url('/assets/about-logo-ja.svg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.contact{
+    position: absolute;
+    left: 53%;
+    top: 60%;
+    transform: translate(-50% ,-50%);
+}
+
+a{
+    font-size: x-large;
+    text-decoration:none;
+    
+}
+
+.social{
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+// a:link {estilos que queremos darle}
+a:visited {
+    color: $primary-color
+}
+// a:active {estilos aquí}
+// a:hover {
+    
+// }
+
