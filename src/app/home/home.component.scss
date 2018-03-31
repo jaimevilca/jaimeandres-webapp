@@ -30,3 +30,15 @@
 .subtitle h1{
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        margin-left: 4em;
+        display: inline;
+    }
+    
+    .logo-svg{
+        padding-top: 3.5em;
+        padding-right: 1em;
+    }
+}

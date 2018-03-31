@@ -49,3 +49,9 @@ body{
 .arrow.prev, .arrow.next{
     display: none !important;
 }
+
+@media only screen and (max-width: 600px) {
+    .slideshow-container{
+        left: 40% !important;
+    }
+}
