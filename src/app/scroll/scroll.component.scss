@@ -1,0 +1,27 @@
+@import '../../styles';
+
+
+// h1{
+//     font-family: 'Work Sans', sans-serif;
+//     font-weight: lighter;
+// }
+
+.circle {
+	width: 20px;
+	height: 20px;
+    border-radius: 10px;
+    margin-right: 0.3rem;
+    display: inline-block;
+    border: 1px solid $primary-color;
+}
+
+.circle.active{
+    background: $primary-color;
+}
+
+.container-scroll {
+    bottom: 1.2rem;
+    position: absolute;
+    left: 50.5%;
+    transform: translateX(-50%);
+}
