@@ -1,0 +1,29 @@
+@import '../../styles';
+
+.container{
+    background-image: url('/assets/projects-puce-logo.svg');
+    background-position: top top;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
+
+h1{
+    color: $primary-color;
+    position: absolute;
+    right:0;
+    margin-right: 4rem;
+    margin-top: 4rem;
+}
+
+.projects-puce{
+    display: inline-block;
+    margin-right: 2rem;
+    font-weight: 600;
+}
+
+.projects{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+}
