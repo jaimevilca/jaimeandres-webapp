@@ -2,7 +2,7 @@
 $primary-color: #005fe8;
 
 
-h1{
+h1, h2, h3, a{
     font-family: 'Work Sans', sans-serif;
     font-weight: lighter;
 }
@@ -13,4 +13,39 @@ h1{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+
+.skills-slide{
+    position: relative;
+    height: 30rem;
+}
+
+
+.slideshow-container{
+    width: 160px !important;
+    position: absolute !important;
+    left: 47% !important;
+    top: 35% !important;
+    transform: translate(-50% ,-50%) !important;
+}
+
+.slideshow-container[_ngcontent-c3] .arrow-container.prev[_ngcontent-c3]:before {
+    background-image: none !important;
+}
+
+.slideshow-container[_ngcontent-c3] .arrow-container.next[_ngcontent-c3]:before{
+    background-image: none !important;
+}
+
+.arrow.prev, .arrow.next{
+    display: none !important;
 }

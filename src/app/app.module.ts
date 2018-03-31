@@ -13,6 +13,9 @@ import { ProjectComponent } from './project/project.component';
 import { AboutComponent } from './about/about.component';
 import { ScrollComponent } from './scroll/scroll.component';
 
+import {SlideshowModule} from 'ng-simple-slideshow';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +28,7 @@ import { ScrollComponent } from './scroll/scroll.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    SlideshowModule,
     ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })  ],
   providers: [],
   bootstrap: [AppComponent]
