@@ -8,7 +8,8 @@ h1, h2, h3, a{
 }
 
 .container {
-    height: 100vh;
+    height: auto;
+    min-height: 100% !important;
     width: 100vw;
     position: absolute;
     top: 0;
@@ -23,18 +24,12 @@ body{
     box-sizing: border-box;
 }
 
-
-.skills-slide{
-    position: relative;
-    height: 30rem;
-}
-
-
 .slideshow-container{
-    width: 160px !important;
+    
     position: absolute !important;
     left: 47% !important;
-    top: 35% !important;
+    top: 45% !important;
+    width: 160px !important;
     transform: translate(-50% ,-50%) !important;
 }
 
@@ -50,8 +45,34 @@ body{
     display: none !important;
 }
 
+.slick-dots{
+    display: none !important;
+}
+
+.slides.link{
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
 @media only screen and (max-width: 600px) {
     .slideshow-container{
         left: 40% !important;
+    }
+
+    
+}
+
+@media only screen and (max-height: 490px) {
+    .slideshow-container{
+        top: 25% !important;
+        left: 43% !important;
+    }
+
+    .contact{
+        margin-top: 20px;
+    }
+
+    .projects-puce{
+        display:block;
     }
 }
